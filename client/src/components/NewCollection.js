@@ -14,7 +14,7 @@ const NewCollection = () => {
                     backgroundImage={Jewelry}
                     backgroundPosition="center"
                     backgroundRepeat="no-repeat"
-                    backgroundSize={700}>
+                    backgroundSize={{base: 700, xl: 1000}}>
                     <Box pt='15%' pb='15%' pl='25px' w='53%' color="teal.500">
                         <Text as='p'>NEW COLLECTION</Text>
                         <Heading as='h2' py={5}>Jewelry & Accessories</Heading>
@@ -29,7 +29,7 @@ const NewCollection = () => {
                     backgroundImage={Women}
                     backgroundPosition="center"
                     backgroundRepeat="no-repeat"
-                    backgroundSize={700}>
+                    backgroundSize={{base: 700, xl: 1000}}>
                     <Box w='50%' mx='auto' textAlign='center' pt='15%' pb='15%' color='0.600'>
                         <Text as='p'>UP TO 25% OFF !</Text>
                         <Heading as='h2' py={5}>Women's Collection</Heading>

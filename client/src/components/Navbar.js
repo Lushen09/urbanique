@@ -21,7 +21,7 @@ const Navbar = () => {
 
     <Box>
 
-      <Container maxW='container.lg'>
+      <Container maxW='container.xl'>
         <Flex as="nav" p="10px" alignItems="center">
 
           {/* Large screen Navbar */}

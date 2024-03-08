@@ -84,7 +84,7 @@ const ChooseUs = () => {
                         w='100%'
                         colSpan={{ base: 2, sm: 2, md: 2, lg: 1 }}
                         backgroundImage={DeliveryImg}
-                        backgroundPosition="center"
+                        backgroundPosition="right"
                         backgroundRepeat="no-repeat"
                         backgroundSize={800}>
                         <Box w='50%' pt='15%' pb='15%' pl='10%'>
