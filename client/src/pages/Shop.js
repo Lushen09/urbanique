@@ -20,7 +20,7 @@ const Shop = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await fetch('http://localhost:3005/api/products');
+                const response = await fetch('https://urbanique-ecommerce-j2jjss19w-lushen09s-projects.vercel.app/api/products');
                 if (!response.ok) {
                     throw new Error('Failed to fetch data');
                 }

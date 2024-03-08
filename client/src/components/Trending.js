@@ -18,8 +18,8 @@ const Trending = () => {
 
     useEffect(() => {
         const fetchProducts = async () => {
-            const response1 = await fetch('http://localhost:3005/api/products/category/jewelery');
-            const response2 = await fetch(`http://localhost:3005/api/products/category/men's clothing`);
+            const response1 = await fetch('https://urbanique-ecommerce-j2jjss19w-lushen09s-projects.vercel.app/api/products/category/jewelery');
+            const response2 = await fetch(`https://urbanique-ecommerce-j2jjss19w-lushen09s-projects.vercel.app/api/products/category/men's clothing`);
             const json1 = await response1.json();
             const json2 = await response2.json();
             const json = [...json1, ...json2];
