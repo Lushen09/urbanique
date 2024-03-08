@@ -17,4 +17,5 @@ Built with:
 ⚪ MongoDB + Mongoose
 
 Design credits: https://webflow.com/?r=0
+
 API for store: https://fakestoreapi.com/
