@@ -10,7 +10,7 @@ export const useSignup = () => {
         setIsLoading(true);
         setSignUpError(null);
 
-            const response = await fetch('https://urbanique-ecommerce-j2jjss19w-lushen09s-projects.vercel.app//api/signup', {
+            const response = await fetch('https://urbanique-ecommerce.vercel.app/api/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

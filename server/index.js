@@ -13,7 +13,7 @@ const mongoose = require('mongoose');
 
 // Middleware
 app.use(cors());
-app.use(cors({ origin: 'https://urbanique.vercel.app' }));
+app.use(cors({ origin: 'https://urbanique-ecommerce.vercel.app' }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
