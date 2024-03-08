@@ -159,7 +159,7 @@ const Shop = () => {
                             </GridItem>
                         ))
                     )}
-                </Grid> \
+                </Grid> 
 
                 {/* rendering the modal */}
 
