@@ -4,6 +4,11 @@ All this supported by the Node.js and Express.js backend which connects the fron
 
 Live Demo: https://urbanique.vercel.app/
 
+Demo credentials:
+
+Email: Test123@gmail.com
+Password: Shopper10!
+
 Built with:
 
 🔵 React
