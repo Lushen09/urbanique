@@ -41,7 +41,7 @@ const Cart = () => {
 
 
     return (
-        <Box bg='purple.100'>
+        <Box bg='red.50'>
 
             <Navbar />
 

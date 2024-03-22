@@ -10,38 +10,38 @@ export const useSignup = () => {
         setIsLoading(true);
         setSignUpError(null);
 
-            const response = await fetch('https://urbanique-ecommerce.vercel.app/api/signup', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ email, password, name }),
-            });
+        const response = await fetch('https://urbanique-ecommerce.vercel.app/api/signup', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ email, password, name }),
+        });
 
-            const json = await response.json();
+        const json = await response.json();
 
-            if (!response.ok) {
-                setIsLoading(false);
-                setSignUpError(json.error);
-                console.log(json.error);
+        if (!response.ok) {
+            setIsLoading(false);
+            setSignUpError(json.error);
+            console.log(json.error);
 
-                return false; 
-            }
+            return false;
+        }
 
-            if (response.ok) {
-                //save user to local storage
-                localStorage.setItem('user', JSON.stringify(json));
+        if (response.ok) {
+            //save user to local storage
+            localStorage.setItem('user', JSON.stringify(json));
 
-                // update auth context
-                dispatch({ type: 'LOGIN', payload: json });
+            // update auth context
+            dispatch({ type: 'LOGIN', payload: json });
 
-                setIsLoading(false);
+            setIsLoading(false);
 
-                return true;
-            }
+            return true;
+        }
 
     }
 
-    return { signup, signUpError, isLoading}
+    return { signup, signUpError, isLoading }
 
 }
