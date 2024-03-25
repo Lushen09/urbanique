@@ -104,7 +104,7 @@ const Shop = () => {
                             Filter
                         </MenuButton>
                         <MenuList>
-                            <MenuItem data-category="" onClick={handleFilter}>Defeault</MenuItem>
+                            <MenuItem data-category="" onClick={handleFilter}>Default</MenuItem>
                             <MenuItem data-category="men's clothing" onClick={handleFilter}>Clothing</MenuItem>
                             <MenuItem data-category="jewelery" onClick={handleFilter}>Jewelery</MenuItem>
                             <MenuItem data-category="electronics" onClick={handleFilter}>Electronics</MenuItem>
